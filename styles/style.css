@@ -115,3 +115,7 @@ a:hover span {
     display: block;
     text-align: center;
 }
+
+img {
+    max-width : 600px;
+}
