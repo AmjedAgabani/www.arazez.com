@@ -11,6 +11,7 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
+    // hot: true,
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -32,7 +33,8 @@ module.exports = {
     },
   },
   output: {
-    filename: '[name].[contenthash].js',
+    filename: '[name].bundle.js',
+    // doesnt work with hmr filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
