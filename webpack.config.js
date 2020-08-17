@@ -20,6 +20,7 @@ module.exports = {
     }),
   ],
   optimization: {
+    usedExports: true,
     moduleIds: 'hashed',
     runtimeChunk: 'single',
     splitChunks: {

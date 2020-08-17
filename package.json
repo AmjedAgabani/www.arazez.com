@@ -1,5 +1,9 @@
 {
   "name": "www.arazez.com",
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ],
   "version": "1.0.0",
   "description": "",
   "private": true,
