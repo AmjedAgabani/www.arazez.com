@@ -11,6 +11,7 @@ body {
 
 .blog-container {
     max-width: 600px;
+    margin: 100px 0;
 }
 
 .row {
@@ -117,5 +118,5 @@ a:hover span {
 }
 
 img {
-    max-width : 600px;
+    max-width: 600px;
 }
